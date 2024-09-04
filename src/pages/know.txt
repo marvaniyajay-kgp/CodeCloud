@@ -1,0 +1,15 @@
+const handleInputEnter=(e)=>{
+    console.log('event',e.code);
+  };
+
+  This was taking all keys as events but we only wanted to receive "enter"
+
+Socket#id:
+Each new connection is assigned a random 20-characters identifier.
+This identifier is synced with the value on the client-side.
+
+
+Was unable to get the websocket connected due to not starting the node server, this was further rectified and was able to generate a unique socket id for the website
+To debug this various methods were used 
+I hard coded the port - 5000 and checked the url was working or not
+We added error handling to check for the location where it was failing
